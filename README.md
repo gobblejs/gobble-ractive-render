@@ -15,7 +15,7 @@ npm i -D gobble-ractive-render
 ```js
 var gobble = require( 'gobble' );
 module.exports = gobble( 'src/components' ).transform( 'ractive-render', {
-  // name of a component file
+  // name of a component file inside src/components
   component: 'Page.html',
 
   // files to generate - for each one, the component
@@ -28,6 +28,8 @@ module.exports = gobble( 'src/components' ).transform( 'ractive-render', {
   }
 });
 ```
+
+For more information about component files see https://github.com/ractivejs/component-spec/.
 
 
 ## License
